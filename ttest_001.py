@@ -1,11 +1,11 @@
 #coding=utf-8
 # 本题为考试单行多行输入输出规范示例，无需提交，不计分。
 import sys
-for line in sys.stdin:
-    a, b, c = line.split()
+for lines in sys.stdin:
+    a, b, c = lines.split()
     # print(int(a[0]) + int(a[1]))
     # print(a, b, c)
-    a,b,c = list(map(int, line.split()))
+    a,b,c = list(map(int, lines.split()))
     num = 0
     a_flag = b_flag = c_flag = num_falg = 0
     for i_a in range(a+1):
